@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  #img1{
+    background: url("https://render.apptornado.com/render?url=http:%2F%2Fnumbersapi.com&w=800&h=600&maxAgeSec=604800&signed=5B_CYV243b-p2q-o-zd-SkXJmftmvbsb05W4AQmULLM");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  }
+  body{
+    overflow-x: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 192px; 
+}
+#outputdiv{
+  background: linear-gradient(to top, #ffffcc, #ffcc99, #ffcccc, #ccccff, hsl(180, 67%, 40%));
+   
+  
+}
